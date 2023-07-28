@@ -30,13 +30,13 @@ The MEN-starter project provides a basic structure for building a MEN (MongoDB, 
 
 # Setup
 
-1. Environment Variable (MONGODB_URI):
+1. Environment Variable (MONGODB_URL):
 
     Create a new file named .env in the root of the project.
 
     Add the following line to the .env file, replacing *your_mongodb_connection_string* with your MongoDB connection string (either local MongoDB or MongoDB Atlas):
 
-    `MONGODB_URI=your_mongodb_connection_string`
+    `MONGODB_URL=your_mongodb_connection_string`
 
     Save the .env file. This file will store your MongoDB connection string and will be used by the application to connect to the database.
 
